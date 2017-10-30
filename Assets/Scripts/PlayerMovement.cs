@@ -3,85 +3,85 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public float distance;
-	public float speed;
-	private bool moving = false;
-	private float startTime;
-	private float endTime;
-	private Vector3 startPosition;
-	private Vector3 endPosition;
-	private float swipeDistance;
-	private float swipeTime;
-	public float maxSwipeTime;
-	public float minSwipeDistance;
-    public bool left;
-    public bool right;
-    public bool up;
-    public bool down;
+	public float Distance;
+	public float Speed;
+	private bool _moving;
+	private float _startTime;
+	private float _endTime;
+	private Vector3 _startPosition;
+	private Vector3 _endPosition;
+	private float _swipeDistance;
+	private float _swipeTime;
+	public float MaxSwipeTime;
+	public float MinSwipeDistance;
+    public bool Left;
+    public bool Right;
+    public bool Up;
+    public bool Down;
 
-	void Update () {
-		if (Input.touchCount > 0 && !moving) {
+	private void Update () {
+		if (Input.touchCount > 0 && !_moving) {
 			Touch touch = Input.GetTouch (0);
 
 			if (touch.phase == TouchPhase.Began) {
-				startTime = Time.time;
-				startPosition = touch.position;
+				_startTime = Time.time;
+				_startPosition = touch.position;
 			} else if (touch.phase == TouchPhase.Ended) {
-				endTime = Time.time;
-				endPosition = touch.position;
+				_endTime = Time.time;
+				_endPosition = touch.position;
 
-				swipeDistance = (endPosition - startPosition).magnitude;
-				swipeTime = endTime - startTime;
+				_swipeDistance = (_endPosition - _startPosition).magnitude;
+				_swipeTime = _endTime - _startTime;
 
-				if (swipeTime < maxSwipeTime && swipeDistance > minSwipeDistance) {
-					Vector2 distanceSwipe = endPosition - startPosition;
+				if (_swipeTime < MaxSwipeTime && _swipeDistance > MinSwipeDistance) {
+					Vector2 distanceSwipe = _endPosition - _startPosition;
 
 					if (Mathf.Abs (distanceSwipe.x) > Mathf.Abs (distanceSwipe.y)) {
-						if (distanceSwipe.x > 0 && left) {
+						if (distanceSwipe.x > 0 && Left) {
 							transform.forward = new Vector3 (-1, 0, 0);
-							StartCoroutine (moveToPosition (new Vector3 (transform.position.x - distance, transform.position.y, transform.position.z)));
-						} else if (distanceSwipe.x < 0 && right) {
+							StartCoroutine (MoveToPosition (new Vector3 (transform.position.x - Distance, transform.position.y, transform.position.z)));
+						} else if (distanceSwipe.x < 0 && Right) {
 							transform.forward = new Vector3 (1, 0, 0);
-							StartCoroutine(moveToPosition (new Vector3 (transform.position.x + distance, transform.position.y, transform.position.z)));
+							StartCoroutine(MoveToPosition (new Vector3 (transform.position.x + Distance, transform.position.y, transform.position.z)));
 						}
 					} else if (Mathf.Abs (distanceSwipe.x) < Mathf.Abs (distanceSwipe.y)) {
-						if (distanceSwipe.y > 0 && down) {
+						if (distanceSwipe.y > 0 && Down) {
 							transform.forward = new Vector3 (0, 0, -1);
-							StartCoroutine (moveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - distance)));
-						} else if (distanceSwipe.y < 0 && up) {
+							StartCoroutine (MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - Distance)));
+						} else if (distanceSwipe.y < 0 && Up) {
 							transform.forward = new Vector3 (0, 0, 1);
-							StartCoroutine(moveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + distance)));
+							StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + Distance)));
 						}
 					}
 				}
 			}
 		}
 
-		if (Input.GetKey (KeyCode.W) && up && !moving) {
+		if (Input.GetKey (KeyCode.W) && Up && !_moving) {
 			transform.forward = new Vector3 (0, 0, 1);
-			StartCoroutine(moveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + distance)));
-		} else if (Input.GetKey (KeyCode.S) && down && !moving) {
+			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + Distance)));
+		} else if (Input.GetKey (KeyCode.S) && Down && !_moving) {
 			transform.forward = new Vector3 (0, 0, -1);
-			StartCoroutine(moveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - distance)));
-		} else if (Input.GetKey (KeyCode.A) && left && !moving) {
+			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - Distance)));
+		} else if (Input.GetKey (KeyCode.A) && Left && !_moving) {
 			transform.forward = new Vector3 (-1, 0, 0);
-			StartCoroutine(moveToPosition (new Vector3 (transform.position.x - distance, transform.position.y, transform.position.z)));
-		} else if (Input.GetKey (KeyCode.D) && right && !moving) {
+			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x - Distance, transform.position.y, transform.position.z)));
+		} else if (Input.GetKey (KeyCode.D) && Right && !_moving) {
 			transform.forward = new Vector3 (1, 0, 0);
-			StartCoroutine(moveToPosition (new Vector3 (transform.position.x + distance, transform.position.y, transform.position.z)));
+			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x + Distance, transform.position.y, transform.position.z)));
 		}
 	}
 
-	IEnumerator moveToPosition (Vector3 newPosition) {
-		moving = true;
+	private IEnumerator MoveToPosition (Vector3 newPosition) {
+		_moving = true;
 		Vector3 oldPosition = transform.position;
 
 		while (oldPosition != newPosition) {
-			transform.position = Vector3.MoveTowards (oldPosition, newPosition, Time.deltaTime * speed);
+			transform.position = Vector3.MoveTowards (oldPosition, newPosition, Time.deltaTime * Speed);
 			oldPosition = transform.position;
 			yield return null;
 		}
 
-		moving = false;
+		_moving = false;
 	}
 }

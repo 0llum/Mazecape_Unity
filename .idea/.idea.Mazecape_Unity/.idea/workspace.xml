@@ -2,35 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c743ca1-65e1-4f1c-a193-b4d822a0634e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/riderModule.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/Player.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/AnnotationManager" afterPath="$PROJECT_DIR$/Library/AnnotationManager" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptMapper" afterPath="$PROJECT_DIR$/Library/ScriptMapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/2c/2c255f9d585cb764ea49132a81782123" afterPath="$PROJECT_DIR$/Library/metadata/2c/2c255f9d585cb764ea49132a81782123" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/1d/1d92d69029e84964ea538c05723906b4.info" afterPath="$PROJECT_DIR$/Library/metadata/1d/1d92d69029e84964ea538c05723906b4.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/2c/2c159c0238a73f04b8543dcb3e4ac327.info" afterPath="$PROJECT_DIR$/Library/metadata/2c/2c159c0238a73f04b8543dcb3e4ac327.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/2c/2c255f9d585cb764ea49132a81782123.info" afterPath="$PROJECT_DIR$/Library/metadata/2c/2c255f9d585cb764ea49132a81782123.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4d/4d37e34b356ba4745a28dbbae0da520b.info" afterPath="$PROJECT_DIR$/Library/metadata/4d/4d37e34b356ba4745a28dbbae0da520b.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/56/5665159f231f5d145a42b0e93e2239a9.info" afterPath="$PROJECT_DIR$/Library/metadata/56/5665159f231f5d145a42b0e93e2239a9.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5b/5b2ad0742c7e78945b6109517b41d2d6.info" afterPath="$PROJECT_DIR$/Library/metadata/5b/5b2ad0742c7e78945b6109517b41d2d6.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5e/5ea6a1cec748d6d45b7968916ff07e2f.info" afterPath="$PROJECT_DIR$/Library/metadata/5e/5ea6a1cec748d6d45b7968916ff07e2f.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/68/68af5bbaf9a9b054ea93322fefa07f41" afterPath="$PROJECT_DIR$/Library/metadata/68/68af5bbaf9a9b054ea93322fefa07f41" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9d/9d6e87c04cf6c8840bdffa5d5bb7bd46.info" afterPath="$PROJECT_DIR$/Library/metadata/9d/9d6e87c04cf6c8840bdffa5d5bb7bd46.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ae/ae85bfd36e8cbad418ff8f01a6264870.info" afterPath="$PROJECT_DIR$/Library/metadata/ae/ae85bfd36e8cbad418ff8f01a6264870.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c0/c0b508003fd09d94abb07a62653091df.info" afterPath="$PROJECT_DIR$/Library/metadata/c0/c0b508003fd09d94abb07a62653091df.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/dc/dcd9b323fe7eb2d469240a4aa52db36c.info" afterPath="$PROJECT_DIR$/Library/metadata/dc/dcd9b323fe7eb2d469240a4aa52db36c.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mazecape.tpk" afterPath="$PROJECT_DIR$/Mazecape.tpk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mazecape_Unity.sln" afterPath="$PROJECT_DIR$/Mazecape_Unity.sln" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +43,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SmootFollowCamera.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SmootFollowCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,28 +62,28 @@
       <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1509320489131" expanded="false" signature="6:44" ph="..." />
-                <marker date="1509320489131" expanded="true" signature="90:3385" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="500:3048" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="541:2114" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="621:690" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="733:2110" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="964:2105" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1093:1563" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1134:1326" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1366:1556" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1632:2099" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1673:1865" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="1902:2092" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="2165:2343" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="2398:2577" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="2632:2811" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="2867:3045" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="3100:3383" ph="{...}" />
-                <marker date="1509320489131" expanded="true" signature="3201:3361" ph="{...}" />
+                <marker date="1509375952383" expanded="false" signature="6:44" ph="..." />
+                <marker date="1509375952383" expanded="true" signature="90:3421" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="507:3074" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="549:2136" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="629:700" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="743:2132" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="984:2127" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1115:1585" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1156:1348" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1388:1578" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1654:2121" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1695:1887" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="1924:2114" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="2188:2366" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="2422:2601" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="2657:2836" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="2893:3071" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="3134:3419" ph="{...}" />
+                <marker date="1509375952383" expanded="true" signature="3236:3396" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,7 +182,49 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
@@ -200,12 +244,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509319819406</updated>
-      <workItem from="1509319821751" duration="666000" />
+      <workItem from="1509319821751" duration="1663000" />
+      <workItem from="1509371933628" duration="2910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="666000" />
+    <option name="totallyTimeSpent" value="4573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,24 +266,24 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -253,14 +298,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player_Movement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SmootFollowCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -277,27 +314,69 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
-            <marker date="1509320489131" expanded="false" signature="6:44" ph="..." />
-            <marker date="1509320489131" expanded="true" signature="90:3385" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="500:3048" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="541:2114" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="621:690" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="733:2110" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="964:2105" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1093:1563" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1134:1326" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1366:1556" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1632:2099" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1673:1865" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="1902:2092" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="2165:2343" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="2398:2577" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="2632:2811" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="2867:3045" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="3100:3383" ph="{...}" />
-            <marker date="1509320489131" expanded="true" signature="3201:3361" ph="{...}" />
+            <marker date="1509375952383" expanded="false" signature="6:44" ph="..." />
+            <marker date="1509375952383" expanded="true" signature="90:3421" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="507:3074" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="549:2136" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="629:700" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="743:2132" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="984:2127" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1115:1585" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1156:1348" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1388:1578" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1654:2121" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1695:1887" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1924:2114" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2188:2366" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2422:2601" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2657:2836" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2893:3071" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="3134:3419" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="3236:3396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player_Movement.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SmootFollowCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1509320355636" expanded="false" signature="6:44" ph="..." />
+            <marker date="1509320355636" expanded="true" signature="93:435" ph="{...}" />
+            <marker date="1509320355636" expanded="true" signature="209:433" ph="{...}" />
+            <marker date="1509320355636" expanded="true" signature="290:378" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1509375952383" expanded="false" signature="6:44" ph="..." />
+            <marker date="1509375952383" expanded="true" signature="90:3421" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="507:3074" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="549:2136" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="629:700" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="743:2132" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="984:2127" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1115:1585" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1156:1348" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1388:1578" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1654:2121" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1695:1887" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="1924:2114" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2188:2366" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2422:2601" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2657:2836" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="2893:3071" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="3134:3419" ph="{...}" />
+            <marker date="1509375952383" expanded="true" signature="3236:3396" ph="{...}" />
           </folding>
         </state>
       </provider>
