@@ -1,14 +1,20 @@
 ﻿using UnityEngine;
 
 public class Goal : MonoBehaviour {
-	public string NextLevel;
-	private GameManager _gameManager;
+	private GameObject _menuOverlay;
+	private PlayerMovement _playerMovement;
 
-	private void Start() {
-		_gameManager = GameManager.Instance;
+	private void Awake() {
+		_menuOverlay = GameManager.Instance.MenuOverlay;
+		_playerMovement = GameObject.Find("Player").GetComponent<PlayerMovement>();
 	}
 
 	private void OnTriggerEnter(Collider other) {
-		_gameManager.SwitchScene(NextLevel);
+		_menuOverlay.SetActive(true);
+		
+		_playerMovement.Up = false;
+		_playerMovement.Down = false;
+		_playerMovement.Left = false;
+		_playerMovement.Right = false;		
 	}
 }
