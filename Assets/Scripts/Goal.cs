@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 
 public class Goal : MonoBehaviour {
+	public string NextLevel;
 	private GameObject _menuOverlay;
 	private PlayerMovement _playerMovement;
 
 	private void Awake() {
-		_menuOverlay = GameManager.Instance.MenuOverlay;
 		_playerMovement = GameObject.Find("Player").GetComponent<PlayerMovement>();
+	}
+
+	private void Start() {
+		_menuOverlay = GameManager.Instance.MenuOverlay;
 	}
 
 	private void OnTriggerEnter(Collider other) {

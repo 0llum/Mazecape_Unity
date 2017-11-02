@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour {
 		}	
 	}
 
+	private void Start() {
+		MenuOverlay.SetActive(false);
+	}
+
 	public void SwitchScene(string newScene) {
 		if (!SceneManager.GetActiveScene().name.Equals(newScene)) {
 			SceneManager.LoadScene(newScene);
@@ -23,6 +27,11 @@ public class GameManager : MonoBehaviour {
 
 	public void ReplayLevel() {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		MenuOverlay.SetActive(false);
+	}
+
+	public void NextLevel() {
+		SceneManager.LoadScene(GameObject.Find("Goal").GetComponent<Goal>().NextLevel);
 		MenuOverlay.SetActive(false);
 	}
 }
