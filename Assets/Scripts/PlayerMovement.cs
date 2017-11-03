@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour {
     public bool Right;
     public bool Up;
     public bool Down;
+	public bool Teleported;
+	private int _steps;
 
 	private void Update () {
 		if (Input.touchCount > 0 && !_moving) {
@@ -72,8 +74,10 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
-	private IEnumerator MoveToPosition (Vector3 newPosition) {
+	public IEnumerator MoveToPosition (Vector3 newPosition) {		
 		_moving = true;
+		_steps++;
+		UI.Instance.StepCounter.text = _steps.ToString();
 		Vector3 oldPosition = transform.position;
 
 		while (oldPosition != newPosition) {
@@ -83,5 +87,9 @@ public class PlayerMovement : MonoBehaviour {
 		}
 
 		_moving = false;
+
+		if (!gameObject.activeSelf) {
+			gameObject.SetActive(true);
+		}
 	}
 }

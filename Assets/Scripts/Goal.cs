@@ -10,11 +10,12 @@ public class Goal : MonoBehaviour {
 	}
 
 	private void Start() {
-		_menuOverlay = GameManager.Instance.MenuOverlay;
+		_menuOverlay = UI.Instance.MenuOverlay;
 	}
 
 	private void OnTriggerEnter(Collider other) {
 		_menuOverlay.SetActive(true);
+		GameManager.Instance.PauseTimer();
 		
 		_playerMovement.Up = false;
 		_playerMovement.Down = false;
