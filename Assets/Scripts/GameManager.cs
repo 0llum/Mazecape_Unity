@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
@@ -7,7 +6,10 @@ public class GameManager : MonoBehaviour {
 	public static GameManager Instance;
 	private bool _paused;
 	private GameObject _menuOverlay;
-	private int _time;
+	private float _startTime;
+	private float _time;
+	private float _steps;
+	private bool _firstStart;
 
 	private void Awake() {
 		if (Instance == null) {
@@ -21,6 +23,15 @@ public class GameManager : MonoBehaviour {
 	private void Start() {
 		_menuOverlay = UI.Instance.MenuOverlay;
 		ReplayLevel();
+	}
+
+	private void Update() {
+		if (_paused) {
+			return;
+		}
+
+		_time = Time.time - _startTime;
+		UI.Instance.TimeCounter.text = _time.ToString("f2");
 	}
 
 	public void SwitchScene(string newScene) {
@@ -41,12 +52,14 @@ public class GameManager : MonoBehaviour {
 
 	private void StartLevel(string level) {
 		SceneManager.LoadScene(level);
+		ResetSteps();
 		ResetTimer();
-		StartTimer();
 	}
 
 	public void ResetTimer() {
-		_time = 0;
+		_firstStart = true;
+		_paused = true;
+		UI.Instance.TimeCounter.text = 0f.ToString("f2");
 	}
 
 	public void PauseTimer() {
@@ -54,14 +67,22 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void StartTimer() {
-		StartCoroutine(Timer());
+		_paused = false;
 	}
-	
-	private IEnumerator Timer() {
-		while (!_paused) {
-			yield return new WaitForSeconds(1);
-			_time++;
-			UI.Instance.TimeCounter.text = _time.ToString();
+
+	public void ResetSteps() {
+		_steps = 0;
+		UI.Instance.StepCounter.text = _steps.ToString("");
+	}
+
+	public void IncreaseSteps() {
+		_steps++;
+		UI.Instance.StepCounter.text = _steps.ToString("");
+
+		if (_firstStart) {
+			_firstStart = false;
+			_startTime = Time.time;
+			_paused = false;
 		}
 	}
 }

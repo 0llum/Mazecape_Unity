@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour {
     public bool Up;
     public bool Down;
 	public bool Teleported;
-	private int _steps;
 
 	private void Update () {
 		if (Input.touchCount > 0 && !_moving) {
@@ -76,8 +75,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public IEnumerator MoveToPosition (Vector3 newPosition) {		
 		_moving = true;
-		_steps++;
-		UI.Instance.StepCounter.text = _steps.ToString();
+		GameManager.Instance.IncreaseSteps();
 		Vector3 oldPosition = transform.position;
 
 		while (oldPosition != newPosition) {
