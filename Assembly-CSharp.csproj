@@ -49,11 +49,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FPS.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Portal.cs" />
     <Compile Include="Assets\Scripts\SmootFollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Star.cs" />
     <Compile Include="Assets\Scripts\TileCorner.cs" />
     <Compile Include="Assets\Scripts\TileCross.cs" />
     <Compile Include="Assets\Scripts\TileEnd.cs" />

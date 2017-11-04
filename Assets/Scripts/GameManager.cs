@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
 	private float _startTime;
 	private float _time;
 	private float _steps;
+	private int _stars;
 	private bool _firstStart;
 
 	private void Awake() {
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene(level);
 		ResetSteps();
 		ResetTimer();
+		ResetStars();
 	}
 
 	public void ResetTimer() {
@@ -84,5 +86,13 @@ public class GameManager : MonoBehaviour {
 			_startTime = Time.time;
 			_paused = false;
 		}
+	}
+
+	public void ResetStars() {
+		_stars = 0;
+	}
+
+	public void IncreaseStars() {
+		_stars++;
 	}
 }
