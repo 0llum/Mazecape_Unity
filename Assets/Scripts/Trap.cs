@@ -11,7 +11,7 @@ public class Trap : MonoBehaviour {
 	
 	private void Update () {
 		
-		transform.position = new Vector3(_initPos.x, _initPos.y - 0.5f + Mathf.Cos(2 * Mathf.PI * (Speed * 0.1f) * Time.time) / 2, _initPos.z);
+		transform.position = new Vector3(_initPos.x, _initPos.y - 1f + Mathf.Cos(2 * Mathf.PI * (Speed * 0.1f) * Time.time), _initPos.z);
 	}
 
 	private void OnTriggerEnter(Collider other) {

@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743ca1-65e1-4f1c-a193-b4d822a0634e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/House.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/House.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Roof.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Roof.mat.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Materials/Sand.mat" afterPath="$PROJECT_DIR$/Assets/Materials/Sand.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Materials/Trap_Spike.mat" afterPath="$PROJECT_DIR$/Assets/Materials/Trap_Spike.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/Goal.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/Goal.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_01.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_01.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_03.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_03.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_07.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest/forest_07.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" />
@@ -15,12 +24,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3c/3c459cd49d161574c84ce54a3b547a2c" afterPath="$PROJECT_DIR$/Library/metadata/3c/3c459cd49d161574c84ce54a3b547a2c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mazecape.tpk" afterPath="$PROJECT_DIR$/Mazecape.tpk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3f/3f13f12f2a9474f4082f27f40ca6b914.info" afterPath="$PROJECT_DIR$/Library/metadata/3f/3f13f12f2a9474f4082f27f40ca6b914.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4f/4f2b9fa232a47ac44be4e5ae2cbf45f4" afterPath="$PROJECT_DIR$/Library/metadata/4f/4f2b9fa232a47ac44be4e5ae2cbf45f4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/6f/6fb8248b05155644592630be5b98c73f" afterPath="$PROJECT_DIR$/Library/metadata/6f/6fb8248b05155644592630be5b98c73f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/6f/6fb8248b05155644592630be5b98c73f.info" afterPath="$PROJECT_DIR$/Library/metadata/6f/6fb8248b05155644592630be5b98c73f.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/76/7689d3ba1a14b0446961b798f91e3910.info" afterPath="$PROJECT_DIR$/Library/metadata/76/7689d3ba1a14b0446961b798f91e3910.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9b/9bd1e48fcf46ec742acb339da0c0f121" afterPath="$PROJECT_DIR$/Library/metadata/9b/9bd1e48fcf46ec742acb339da0c0f121" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9b/9bd1e48fcf46ec742acb339da0c0f121.info" afterPath="$PROJECT_DIR$/Library/metadata/9b/9bd1e48fcf46ec742acb339da0c0f121.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d9/d92c79774ed3b7540b8a78bb3a594af6.info" afterPath="$PROJECT_DIR$/Library/metadata/d9/d92c79774ed3b7540b8a78bb3a594af6.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Mazecape_Unity/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Trap.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Trap.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,7 +109,7 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
+            <state relative-caret-position="1666">
               <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
               <folding>
                 <marker date="1509894884537" expanded="false" signature="6:53" ph="..." />
@@ -216,14 +230,14 @@
       <file leaf-file-name="Trap.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Trap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <marker date="1509898190340" expanded="false" signature="6:44" ph="..." />
-                <marker date="1509898190340" expanded="true" signature="80:451" ph="{...}" />
-                <marker date="1509898190340" expanded="true" signature="154:191" ph="{...}" />
-                <marker date="1509898190340" expanded="true" signature="218:363" ph="{...}" />
-                <marker date="1509898190340" expanded="true" signature="410:449" ph="{...}" />
+                <marker date="1509910538338" expanded="false" signature="6:44" ph="..." />
+                <marker date="1509910538338" expanded="true" signature="80:445" ph="{...}" />
+                <marker date="1509910538338" expanded="true" signature="154:191" ph="{...}" />
+                <marker date="1509910538338" expanded="true" signature="218:357" ph="{...}" />
+                <marker date="1509910538338" expanded="true" signature="404:443" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -439,11 +453,12 @@
       <workItem from="1509813584450" duration="1897000" />
       <workItem from="1509878679525" duration="2920000" />
       <workItem from="1509893160472" duration="3038000" />
+      <workItem from="1509910478842" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35747000" />
+    <option name="totallyTimeSpent" value="36441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1159,7 +1174,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
+        <state relative-caret-position="1666">
           <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
           <folding>
             <marker date="1509894884537" expanded="false" signature="6:53" ph="..." />
@@ -1189,14 +1204,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Trap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1509898190340" expanded="false" signature="6:44" ph="..." />
-            <marker date="1509898190340" expanded="true" signature="80:451" ph="{...}" />
-            <marker date="1509898190340" expanded="true" signature="154:191" ph="{...}" />
-            <marker date="1509898190340" expanded="true" signature="218:363" ph="{...}" />
-            <marker date="1509898190340" expanded="true" signature="410:449" ph="{...}" />
+            <marker date="1509910538338" expanded="false" signature="6:44" ph="..." />
+            <marker date="1509910538338" expanded="true" signature="80:445" ph="{...}" />
+            <marker date="1509910538338" expanded="true" signature="154:191" ph="{...}" />
+            <marker date="1509910538338" expanded="true" signature="218:357" ph="{...}" />
+            <marker date="1509910538338" expanded="true" signature="404:443" ph="{...}" />
           </folding>
         </state>
       </provider>
