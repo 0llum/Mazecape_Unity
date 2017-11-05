@@ -95,4 +95,14 @@ public class GameManager : MonoBehaviour {
 	public void IncreaseStars() {
 		_stars++;
 	}
+
+	public void GameOver() {
+		PauseTimer();
+		UI.Instance.MenuOverlay.SetActive(true);
+		PlayerMovement playerMovement = GameObject.Find("Player").GetComponent<PlayerMovement>();
+		playerMovement.Up = false;
+		playerMovement.Down = false;
+		playerMovement.Left = false;
+		playerMovement.Right = false;
+	}
 }
