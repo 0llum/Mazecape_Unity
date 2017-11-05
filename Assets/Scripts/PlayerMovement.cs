@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float Distance;
 	public float Speed;
+	public float RotationSpeed;
 	private bool _moving;
 	private float _startTime;
 	private float _endTime;
@@ -21,7 +22,11 @@ public class PlayerMovement : MonoBehaviour {
 	public bool Teleported;
 
 	private void Update () {
-		if (Input.touchCount > 0 && !_moving) {
+		if (_moving) {
+			return;
+		}
+		
+		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch (0);
 
 			if (touch.phase == TouchPhase.Began) {
@@ -34,46 +39,80 @@ public class PlayerMovement : MonoBehaviour {
 				_swipeDistance = (_endPosition - _startPosition).magnitude;
 				_swipeTime = _endTime - _startTime;
 
-				if (_swipeTime < MaxSwipeTime && _swipeDistance > MinSwipeDistance) {
-					Vector2 distanceSwipe = _endPosition - _startPosition;
-
-					if (Mathf.Abs (distanceSwipe.x) > Mathf.Abs (distanceSwipe.y)) {
-						if (distanceSwipe.x > 0 && Left) {
-							transform.forward = new Vector3 (-1, 0, 0);
-							StartCoroutine (MoveToPosition (new Vector3 (transform.position.x - Distance, transform.position.y, transform.position.z)));
-						} else if (distanceSwipe.x < 0 && Right) {
-							transform.forward = new Vector3 (1, 0, 0);
-							StartCoroutine(MoveToPosition (new Vector3 (transform.position.x + Distance, transform.position.y, transform.position.z)));
-						}
-					} else if (Mathf.Abs (distanceSwipe.x) < Mathf.Abs (distanceSwipe.y)) {
-						if (distanceSwipe.y > 0 && Down) {
-							transform.forward = new Vector3 (0, 0, -1);
-							StartCoroutine (MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - Distance)));
-						} else if (distanceSwipe.y < 0 && Up) {
-							transform.forward = new Vector3 (0, 0, 1);
-							StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + Distance)));
-						}
-					}
+				if (_swipeTime > MaxSwipeTime) {
+					return;
 				}
+
+				if (_swipeDistance < MinSwipeDistance) {
+					return;
+				}
+
+				Vector2 distanceSwipe = _endPosition - _startPosition;
+
+				if (Mathf.Abs(distanceSwipe.x) > Mathf.Abs(distanceSwipe.y)) {
+					if (distanceSwipe.x > 0) {
+						SwipeRight();
+					} else if (distanceSwipe.x < 0) {
+						SwipeLeft();
+					}
+				} else if (Mathf.Abs(distanceSwipe.x) < Mathf.Abs(distanceSwipe.y)) {
+					if (distanceSwipe.y > 0) {
+						SwipeUp();
+					} else if (distanceSwipe.y < 0) {
+						SwipeDown();
+					}
+				}		
 			}
 		}
 
-		if (Input.GetKey (KeyCode.W) && Up && !_moving) {
-			transform.forward = new Vector3 (0, 0, 1);
-			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + Distance)));
-		} else if (Input.GetKey (KeyCode.S) && Down && !_moving) {
-			transform.forward = new Vector3 (0, 0, -1);
-			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - Distance)));
-		} else if (Input.GetKey (KeyCode.A) && Left && !_moving) {
-			transform.forward = new Vector3 (-1, 0, 0);
-			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x - Distance, transform.position.y, transform.position.z)));
-		} else if (Input.GetKey (KeyCode.D) && Right && !_moving) {
-			transform.forward = new Vector3 (1, 0, 0);
-			StartCoroutine(MoveToPosition (new Vector3 (transform.position.x + Distance, transform.position.y, transform.position.z)));
+		if (Input.GetKey (KeyCode.W)) {
+			SwipeDown();			
+		} else if (Input.GetKey (KeyCode.S)) {
+			SwipeUp();
+		} else if (Input.GetKey (KeyCode.A)) {
+			SwipeRight();		
+		} else if (Input.GetKey (KeyCode.D)) {
+			SwipeLeft();
 		}
 	}
 
-	public IEnumerator MoveToPosition (Vector3 newPosition) {		
+	private void SwipeUp() {
+		if (!Down) {
+			return;
+		}
+		
+		StartCoroutine(TurnInDirection(new Vector3(0, 0, -1)));
+		StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z - Distance)));
+	}
+	
+	private void SwipeDown() {
+		if (!Up) {
+			return;
+		}
+		
+		StartCoroutine(TurnInDirection(new Vector3(0, 0, 1)));
+		StartCoroutine(MoveToPosition (new Vector3 (transform.position.x, transform.position.y, transform.position.z + Distance)));
+	}
+	
+	private void SwipeLeft() {
+		if (!Right) {
+			return;
+		}
+		
+		StartCoroutine(TurnInDirection(new Vector3(1, 0, 0)));
+		StartCoroutine(MoveToPosition (new Vector3 (transform.position.x + Distance, transform.position.y, transform.position.z)));
+	}
+	
+	private void SwipeRight() {
+		if (!Left) {
+			return;
+		}
+		
+		StartCoroutine(TurnInDirection(new Vector3(-1, 0, 0)));
+		StartCoroutine(MoveToPosition (new Vector3 (transform.position.x - Distance, transform.position.y, transform.position.z)));
+	}
+
+	public IEnumerator MoveToPosition(Vector3 newPosition) {		
 		_moving = true;
 		GameManager.Instance.IncreaseSteps();
 		Vector3 oldPosition = transform.position;
@@ -88,6 +127,16 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (!gameObject.activeSelf) {
 			gameObject.SetActive(true);
+		}
+	}
+
+	public IEnumerator TurnInDirection(Vector3 newDirection) {
+		Vector3 oldDirection = transform.forward;
+
+		while (oldDirection != newDirection) {
+			transform.forward = Vector3.RotateTowards(oldDirection, newDirection, Time.deltaTime * RotationSpeed, 0);
+			oldDirection = transform.forward;
+			yield return null;
 		}
 	}
 }

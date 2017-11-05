@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\TileEnd.cs" />
     <Compile Include="Assets\Scripts\TileStraight.cs" />
     <Compile Include="Assets\Scripts\TileT.cs" />
+    <Compile Include="Assets\Scripts\Torch.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
